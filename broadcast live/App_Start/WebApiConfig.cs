@@ -16,7 +16,7 @@ namespace broadcast_live
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",
+                routeTemplate: "api/{Sample}",
                 defaults: new { id = RouteParameter.Optional }
             );
         }
